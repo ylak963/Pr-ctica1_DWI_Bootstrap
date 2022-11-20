@@ -1,0 +1,138 @@
+ .azul{
+  background: rgba(0, 0, 25, 0.700);
+ }
+  .carousel-caption {
+    bottom: 5rem;
+    z-index: 10;
+  }
+  .carousel-item {
+    height: 20rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  p{
+    font-family:'Poppins', sans-serif ;
+   
+  }
+  .beneficios{
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+  }
+  h1{
+    font-family: 'Sono', sans-serif;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    color: rgb(7, 28, 6);
+    font-weight: bold;
+    text-transform: uppercase;    
+    text-shadow: 1px 1px rgb(205, 234, 141);
+    
+  }
+  h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  #caracteristicas{
+    background-image: url("../../images/caract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+    
+  }
+  #fondoCarac{
+    background-image: url("../../images/caract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #fondoBoton{    
+    background-image: url("../../images/banda1.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 15%;
+  }
+  #fondoF{
+    background-image: url("../../images/banda1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+  }
+  #botonMedio{
+        text-align: center;    
+  }
+  .parpadea{
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    }
+    @-moz-keyframes parpadeo{  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+    }
+    
+    @-webkit-keyframes parpadeo {  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+    }
+    
+    @keyframes parpadeo {  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+    } 
+ 
+  #icon1{
+    width: 85%;
+    margin: 0 auto;
+  }
+  #icon2{
+    width: 98%;
+    margin: 0 auto;
+  }
+  #icon3{
+    width: 86%;
+    margin: 0 auto;
+  }
+  #txta {
+    vertical-align: top;
+}
+
+
+@media (max-width: 576px) {
+  #formulario{
+    text-align: center;    
+  }
+}
+@media (min-width: 576px) {
+  #icon1{
+    width: 97%;
+    margin: 0 auto;
+  }
+  #icon2{
+    width: 97%;
+    margin: 0 auto;
+  }
+  #icon3{
+    width: 97%;
+    margin: 0 auto;
+  }  
+}
+  @media (min-width: 768px) {}
+  @media (max-width: 992px) {}
+  @media (min-width: 1200px) {}
